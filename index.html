@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS To Do List</title>
+
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- 进行less处理
+	<link rel="stylesheet/less" type="text/css" href="./css/styles.less" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.2/less.min.js" ></script> -->
+
+</head>
+<body>
+	
+	<header>
+		<input type="text" placeholder="Enter an activity..." id="item" />
+		<button id="add">
+	        <i class="icon iconfont icon-add"></i>	         	      
+	    </button>
+	</header>
+	
+	<div id="container">
+	<!-- to do list -->
+		<!--
+			<li>This is an item
+				<div class="buttons">
+					<button class="remove">
+						<i class="icon iconfont icon-delete"></i>
+					</button>
+
+					<button class="complete">
+						<i class="icon iconfont icon-selected"></i>
+					</button>
+				</div>
+			</li>
+
+			<li>This is an item
+				<div class="buttons">
+					<button class="remove">
+						<i class="icon iconfont icon-delete"></i>
+					</button>
+
+					<button class="complete">
+						<i class="icon iconfont icon-selected"></i>
+					</button>
+				</div>
+			</li>
+		-->
+		<ul class="todo" id="todo"></ul>
+	<!-- completed  -->
+		<ul class="todo" id="completed"></ul>
+	</div>
+	
+	<script src="js/indexs.js"></script>
+</body>
+</html>

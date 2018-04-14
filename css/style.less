@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// 定义less变量
+    @colo: color;
+    @pad:padding;
+    @borBoRight: border-bottom-right;
+
+
+//运用变量
+body {
+    background-@{colo}:#edf0f1;
+    @{pad}-top:80px;
+}
+
+body, input, button {
+	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+header {
+    width:100%;
+    height:80px;
+    @{pad}:15px;
+    background-@{colo}:#25b99a;
+    @{borBoRight}-radius:10px;
+    
+}
